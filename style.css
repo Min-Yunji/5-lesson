@@ -1,0 +1,53 @@
+body{
+    background-image: url(https://avatars.mds.yandex.net/i?id=a8570f1cffa2c18ddfd22bbaf0f1cb61-7025901-images-thumbs&n=13);
+    background-size: cover;
+    border: 8px solid black rgb(10, 10, 10);
+    margin: 3;
+    padding: 3;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+img {
+    width: 250px;
+    border: 5px solid black;
+    border-radius: 50px;
+}
+
+h2 {
+    color: darkslategray;
+}
+b {
+    color: black;
+    font-weight: bold;
+}
+.main {
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+    margin-top: 50px;
+}
+.links{
+    text-align: center;
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid black;
+    border-width: 2px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    max-width: 320px;
+}
+.links:hover{
+    background-color: black (113, 204, 204);
+    transition: 2s;
+}
+a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+a.hover{
+    color: blue;
+}
